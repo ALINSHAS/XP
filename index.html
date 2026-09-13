@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>XP</title>
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js">
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">XP</a>
+            <!-- Mobile button -->
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar content -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <!-- Search -->
+                <form class="d-flex search-form">
+                    <input
+                        class="form-control search-bar"
+                        type="search"
+                        placeholder="Search store"
+                        aria-label="Search"
+                    >
+                </form>
+
+                <!-- Links -->
+                <ul class="navbar-nav ms-4">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Discover</a>
+                    </li>
+                </ul>
+            
+            </div>
+        </div>
+            <div class="cart"><i class="fa-solid fa-cart-shopping"></i></div>
+    </nav>
+
+
+    <!-- Carousel -->
+    <div class="carousel-container">
+
+        <div
+            id="carouselExampleSlidesOnly"
+            class="carousel slide"
+            data-bs-ride="carousel"
+            data-bs-interval="4000"
+        >
+
+            <div class="carousel-inner">
+
+                <!-- Image 1 -->
+                <div class="carousel-item active">
+                    <img
+                        src="Images/Minecraft.png"
+                        class="d-block w-100"
+                        alt="Minecraft"
+                    >
+                </div>
+
+                <!-- Image 2 -->
+                <div class="carousel-item">
+                    <img
+                        src="Images/GTA VI.png"
+                        class="d-block w-100"
+                        alt="GTA VI"
+                    >
+                </div>
+
+                <!-- Image 3 -->
+                <div class="carousel-item">
+                    <img
+                        src="Images/Fornite.png"
+                        class="d-block w-100"
+                        alt="GTA VI"
+                    >
+                </div>
+
+                <!-- Image 4 -->
+                <div class="carousel-item">
+                    <img
+                        src="Images/Rdr 2.png"
+                        class="d-block w-100"
+                        alt="GTA VI"
+                    >
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <!--Hero-->
+<section class="sale-section">
+
+ <!--  Summer Sale -->
+<div class="summer-sale">
+    <img src="Images/Summer Sale.png" alt="Summer Sale">
+    <div class="sale-content">
+        <button>Save Now</button>
+    </div>
+</div>
+
+
+    <!-- RIGHT: Games -->
+    <div class="sale-games">
+        <!--Game-->
+        <div class="game-card">
+            <img src="https://i.pinimg.com/1200x/30/6d/31/306d31e63b2bf22e23e94118935b75d1.jpg" alt="GTA V">
+            <div>
+                <h4>Grand Theft Auto V</h4>
+                <span style="background-color: #26BBFF; border-radius: 20px">  -50%  </span>
+                <p><del>₹2,499</del> ₹1,249</p>
+            </div>
+        </div>
+          <!--Game-->
+        <div class="game-card">
+            <img src="https://i.pinimg.com/736x/f4/2f/4e/f42f4ee7911855414647ec55c46ddabc.jpg" alt="The Witcher 3">
+            <div>
+                <h4>The Witcher 3</h4>
+                <span style="background-color: #26BBFF; border-radius: 20px">  -50%  </span>
+                <p><del>₹4,499</del> ₹2,249</p>
+            </div>
+        </div>
+           <!--Game-->
+        <div class="game-card">
+            <img src="https://i.pinimg.com/236x/72/72/19/727219c0b719ec9e5b893ad5e649fccc.jpg" alt="God of War">
+            <div>
+                <h4>God of War</h4>
+                <span style="background-color: #26BBFF; border-radius: 20px">  -50%  </span>
+                <p><del>₹2,999</del> ₹1,499</p>
+            </div>
+        </div>
+             <!--Game-->
+        <div class="game-card">
+            <img src="https://i.pinimg.com/236x/cc/61/72/cc6172b5c303fa5cb1976aedca0f4216.jpg" alt="Elden Ring">
+            <div>
+                <h4>Elden Ring</h4>
+                <span style="background-color: #26BBFF; border-radius: 20px">  -50%  </span>
+                <p><del>₹4,499</del> ₹2,249</p>
+            </div>
+        </div>
+          <!--Game-->
+        <div class="game-card">
+            <img src="https://i.pinimg.com/1200x/70/16/a1/7016a14bd8c7d2f7c3acb28362c84dac.jpg" alt="Days Gone">
+            <div>
+                <h4>Days Gone</h4>
+                <span style="background-color: #26BBFF; border-radius: 20px">  -50%  </span>
+                <p><del>₹1,499</del> ₹749</p>
+            </div>
+        </div>
+            <!--Game-->
+        <div class="game-card">
+            <img src="https://i.pinimg.com/1200x/47/13/54/4713544939fc656c2cdab4cf227b5409.jpg" alt="Wolverine">
+            <div>
+                <h4>Wolverine</h4>
+                <span style="background-color: #26BBFF; border-radius: 20px">  -50%  </span>
+                <p><del>₹3,999</del> ₹1,999</p>
+            </div>
+        </div>
+            <!--Game-->
+        <div class="game-card">
+            <img src="https://i.pinimg.com/236x/91/73/46/9173462c2aabd7b14a16d1846326e73d.jpg" alt="Ghost of Tshushima">
+            <div>
+                <h4>Ghost of Tshushima</h4>
+                <span style="background-color: #26BBFF; border-radius: 20px">  -50%  </span>
+                <p><del>₹3,499</del> ₹1,749</p>
+            </div>
+        </div>
+            <!--Game-->
+        <div class="game-card">
+            <img src="https://i.pinimg.com/236x/b2/43/25/b2432509cc31dd760e637404da0f3692.jpg" alt="Hogwarts Legacy">
+            <div>
+                <h4>Hogwarts Legacy</h4>
+                <span style="background-color: #26BBFF; border-radius: 20px">  -50%  </span>
+                <p><del>₹4,499</del> ₹2,249</p>
+            </div>
+        </div>
+            <!--Game-->
+        <div class="game-card">
+            <img src="https://i.pinimg.com/736x/37/cd/10/37cd104707c54355af941737843721c3.jpg" alt="Red Dead Redemption">
+            <div>
+                <h4>Red Dead Redemption</h4>
+                <span style="background-color: #26BBFF; border-radius: 20px">  -50%  </span>
+                <p><del>₹3,599</del> ₹1,799</p>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- GAME BANNERS -->
+<div id="gameCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <!-- First 2 games -->
+        <div class="carousel-item active">
+            <div class="row g-4">
+                <!-- Ghost of Yotei -->
+                <div class="col-6">
+                    <div class="game-banner">
+                        <img src="Banner/Ghost of yotei.png"
+                             class="d-block w-100 rounded"
+                             alt="Ghost of Yotei">
+                        <div class="banner-info">
+                            <div class="price">₹3,499</div>
+                            <button class="banner-button">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Assassin's Creed Shadows -->
+                <div class="col-6">
+                    <div class="game-banner">
+                        <img src="Banner/Assassin creed shadows.png"
+                             class="d-block w-100 rounded"
+                             alt="Assassin's Creed Shadows">
+                        <div class="banner-info">
+                            <div class="price">₹2,999</div>
+                            <button class="banner-button">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Next 2 games -->
+        <div class="carousel-item">
+            <div class="row g-4">
+                <!-- God of War -->
+                <div class="col-6">
+                    <div class="game-banner">
+                        <img src="Banner/God of war.png"
+                             class="d-block w-100 rounded"
+                             alt="God of War Ragnarök">
+                        <div class="banner-info">
+                            <div class="price">₹2,999</div>
+                            <button class="banner-button">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Red Dead Redemption 2 -->
+                <div class="col-6">
+                    <div class="game-banner">
+                        <img src="Banner/rdr2.png"
+                             class="d-block w-100 rounded"
+                             alt="Red Dead Redemption 2">
+                        <div class="banner-info">
+                            <div class="price">₹1,799</div>
+                            <button class="banner-button">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                                Add to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- UPCOMING GAMES -->
+<section class="upcoming-section">
+    <div class="upcoming-column">
+        <h2>New Releases</h2>
+
+        <div class="upcoming-game">
+            <img src="https://i.pinimg.com/736x/eb/61/e1/eb61e11387320bb4d50b7bc3eca8e51a.jpg" alt="007 First Light">
+            <div>
+                <h3>007 First Light</h3>
+                <p>Available Now</p>
+            </div>
+        </div>
+
+        <div class="upcoming-game">
+            <img src="https://i.pinimg.com/736x/ce/60/c0/ce60c02554ff5eb5ae85a8a588609719.jpg" alt="Resident Evil 2">
+            <div>
+                <h3>Resident Evil 2</h3>
+                <p>Available Now</p>
+            </div>
+        </div>
+
+        <div class="upcoming-game">
+            <img src="https://i.pinimg.com/1200x/8e/f4/e5/8ef4e5916ccaf13d64efd77e4962e304.jpg" alt="Spider-Man">
+            <div>
+                <h3>Spider-Man</h3>
+                <p>Available Now</p>
+            </div>
+        </div>
+
+        <div class="upcoming-game">
+            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/2694490/library_600x900_2x.jpg" alt="Path of Exile 2">
+            <div>
+                <h3>Path of Exile 2</h3>
+                <p>Available Now</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="upcoming-column">
+        <h2>Coming Soon</h2>
+
+        <div class="upcoming-game">
+            <img src="https://i.pinimg.com/736x/b3/26/81/b32681a60d62788aaceff49a57a4f7ad.jpg" alt="GTA VI">
+            <div>
+                <h3>GTA VI</h3>
+                <p>Coming Soon</p>
+            </div>
+        </div>
+
+        <div class="upcoming-game">
+            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/2208810/library_600x900_2x.jpg" alt="Jurassic Park Survival">
+            <div>
+                <h3>Jurassic Park: Survival</h3>
+                <p>Coming Soon</p>
+            </div>
+        </div>
+
+        <div class="upcoming-game">
+            <img src="https://i.pinimg.com/1200x/3e/06/9d/3e069d4ed7791e636df934d5b046ea22.jpg" alt="Wuchang: Fallen Feathers">
+            <div>
+                <h3>Wuchang: Fallen Feathers</h3>
+                <p>Coming Soon</p>
+            </div>
+        </div>
+
+        <div class="upcoming-game">
+            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/3292470/library_600x900_2x.jpg" alt="Out of Words">
+            <div>
+                <h3>Out of Words</h3>
+                <p>Coming Soon</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="upcoming-column">
+        <h2>Featured Deals</h2>
+
+        <div class="upcoming-game">
+            <img src="https://i.pinimg.com/1200x/db/40/02/db40028b2be3ebecec7e5ad723c0bb5a.jpg" alt="The Last of Us: Part 2">
+            <div>
+                <h3>The Last of Us: Part 2</h3>
+                <div class="deal-price">
+                    <span>-20%</span>
+                    <del>₹3,499</del>
+                    ₹2,799
+                </div>
+            </div>
+        </div>
+
+        <div class="upcoming-game">
+            <img src="https://i.pinimg.com/736x/13/51/93/135193330a18281c9ec9e46a429a1892.jpg" alt="GTA SAN SA">
+            <div>
+                <h3>GTA San Andreas</h3>
+                <div class="deal-price">
+                    <span>-30%</span>
+                    <del>₹1,399</del>
+                    ₹449
+                </div>
+            </div>
+        </div>
+
+        <div class="upcoming-game">
+            <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/3321460/library_600x900_2x.jpg" alt="Crimson Desert">
+            <div>
+                <h3>Crimson Desert</h3>
+                <p>₹4,499</p>
+            </div>
+        </div>
+
+        <div class="upcoming-game">
+            <img src="https://i.pinimg.com/736x/ad/cb/2b/adcb2b899ff6ae2d7cd6b2ebc7ab2385.jpg" alt="Sekiro Shadows Die Twice">
+            <div>
+                <h3>Sekiro Shadows Die Twice</h3>
+                <p>₹399</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-brand">
+            <h2>XP</h2>
+            <p>Your ultimate gaming store.</p>
+        </div>
+
+        <div class="footer-links">
+            <div>
+                <h4>Store</h4>
+                <a href="#">Home</a>
+                <a href="#">Discover</a>
+                <a href="#">Games</a>
+            </div>
+
+            <div>
+                <h4>Support</h4>
+                <a href="#">Help Center</a>
+                <a href="#">Contact</a>
+                <a href="#">FAQ</a>
+            </div>
+
+            <div>
+                <h4>Follow Us</h4>
+                <a href="#">Instagram</a>
+                <a href="#">Discord</a>
+                <a href="#">X</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 XP. All rights reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
